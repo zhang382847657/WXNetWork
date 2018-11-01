@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - CTMediator (25)
+  - CTNetworkingSwift (13):
+    - Alamofire
+    - CTMediator
+    - SwiftyJSON
+  - SwiftyJSON (4.2.0)
+  - WXNetWork (0.0.1):
+    - AlamofireImage (~> 3.4)
+    - CTNetworkingSwift
+
+DEPENDENCIES:
+  - WXNetWork (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - CTMediator
+    - CTNetworkingSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  WXNetWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  CTNetworkingSwift: 72315a1bd0058e3448daaad7bafe34a8ec957852
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  WXNetWork: a0fdf887eab347d75de2998f667d82554ad9dd99
+
+PODFILE CHECKSUM: 50e557afade77ef9554723b38f6cc27d3356908d
+
+COCOAPODS: 1.5.3

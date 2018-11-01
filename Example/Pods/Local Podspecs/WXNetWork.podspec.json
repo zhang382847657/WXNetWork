@@ -1,0 +1,37 @@
+{
+  "name": "WXNetWork",
+  "version": "0.0.1",
+  "summary": "微信网络层",
+  "description": "微信网络层，主要用来配置项目Service，API，以及加载网络图等",
+  "homepage": "https://github.com/zhang382847657/WXNetWork.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "为毛哩": "382847657@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/zhang382847657/WXNetWork.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "WXNetWork",
+    "WXNetWork/*.{swift}"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "CTNetworkingSwift": [
+
+    ],
+    "AlamofireImage": [
+      "~> 3.4"
+    ]
+  }
+}
